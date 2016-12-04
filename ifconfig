@@ -1,5 +1,5 @@
 echo "Hello"
-for i in server1 server2
+for i in server1 server2 server3
 do
 ssh root@$i ifconfig -a
 done
