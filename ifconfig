@@ -1,0 +1,6 @@
+echo "Hello"
+for i in server1 server2
+do
+ssh root@$i ifconfig -a
+done
+echo "end of the script"
